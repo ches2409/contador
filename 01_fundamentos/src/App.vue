@@ -27,7 +27,7 @@
     
     <hr />
     <h2>Contador: {{ contador }}</h2>
-    <button v-on:click="incrementar()">+1</button>
+    <button @click="incrementar()">+1</button>
     <button @click="decrecer()"> -1</button>
     <button @click="resetear()">Reset</button>
   </div>
